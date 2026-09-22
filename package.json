@@ -4,5 +4,7 @@
   "description": "Sistem Perhitungan Gaji dan Bonus Karyawan",
   "private": true,
   "type": "module",
-  "scripts": {}
+  "scripts": {
+    "test": "cd server && node --test ../tests/calculateBonus.test.js ../tests/api.test.js"
+  }
 }

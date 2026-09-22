@@ -62,6 +62,18 @@ VITE_API_URL=http://localhost:3000
 
 > **Penting:** jangan commit `SUPABASE_SERVICE_ROLE_KEY` atau `.env` ke repository.
 
+## Testing
+
+Test berada di folder `tests/` (terpisah dari kode aplikasi). Jalankan dari root project:
+
+```bash
+npm test
+```
+
+Mencakup:
+- **Unit test** aturan bonus: Januari = 0, Februari–Desember = 5%, total = salary + bonus (PRD 13–16).
+- **Integration test API**: CRUD employee/salary/bonus, validasi (kode duplikat, periode ganda, salary <= 0, bulan tidak valid), bonus diabaikan dari client, satu salary satu bonus, report + filter, dan cascade delete (PRD 17–26, 43, 50–54).
+
 ## Business Rules
 
 - Bonus bulan **Januari** = `0`.
