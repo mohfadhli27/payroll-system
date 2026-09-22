@@ -1,0 +1,8 @@
+{
+  "name": "payroll-system",
+  "version": "1.0.0",
+  "description": "Sistem Perhitungan Gaji dan Bonus Karyawan",
+  "private": true,
+  "type": "module",
+  "scripts": {}
+}
